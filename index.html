@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css"> 
+  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet"> 
+  <link
+  rel="stylesheet"
+  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  crossorigin="anonymous"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&display=swap"
+  rel="stylesheet"
+/>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script> 
+
+  <title>Hotel</title>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">  
+    <div class="container-fluid">  
+       <a class="navbar-brand" href="#"> <img src="assets/logoBig.png" class="logo"></img> Best Food Hotel </i></a>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">  
+        <span class="navbar-toggler-icon"></span></button>  
+          
+            <div class="collapse navbar-collapse" id="mynav">  
+            <ul class="navbar-nav ml-auto">  
+               <li class="nav-item active" >  
+                  
+                <a  class="nav-link" href="#">Home</a>  
+                </li>  
+                <li class="nav-item " >  
+                  
+                <a  class="nav-link" href="#about">About Us</a>  
+                </li>  
+                <li class="nav-item" >  
+                  
+                <a  class="nav-link" href="#facilities">Facilities</a>  
+                </li>  
+                <li class="nav-item" >  
+                  
+                <a  class="nav-link" href="#location">Location</a>  
+                </li>  
+                <li class="nav-item" >  
+                  
+                <a  class="nav-link" href="#footer">Contacts</a>  
+                </li>  
+                </ul>  
+             </div></div></nav> 
+  <section class="header">
+    
+               <div id="slides" class="carousel slide" data-ride="carousel">  
+
+                <ol class="carousel-indicators">   
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>  
+                    <li data-target="#slides" data-slide-to="1" ></li>  
+                      
+                </ol>  
+                <div class="carousel-inner">  
+                    <div class="carousel-item active">  
+                    <img src="assets/landing.jpg" width="100%" height="100%">  
+                        <div class="carousel-caption">  
+                        <h1 class="display-2">Dine with us</h1>  
+                        <h3 >Enjoy</h3>  
+                        </div>  
+                    </div>  
+                    <div class="carousel-item" style="width: 100%">  
+                    <img src="assets/hotel.jpg" width="100%" height="100%">  
+                    <div class="carousel-caption">  
+                      <h1 class="display-2">Infinity Pools</h1>  
+                      <h3 >Enjoy</h3>  
+                      </div> 
+                    </div>  
+                    </div>
+          
+
+  </section>
+
+  <section class="about" id="about">
+    <h1>Meals We Offer</h1>
+    <p>
+      page when looking at its layout. The point of using Lorem Ipsum is that
+      it has a more-or-less normal distribution of letters
+    </p>
+    <div class="row">
+      <div class="about-col" id="breakfast">
+        <h3>Breakfast</h3>
+        <p>
+          page when looking at its layout. The point of using Lorem Ipsum is
+          that it has a more-or-less normal distribution of letters
+        </p>
+      </div>
+      <div class="about-col" id="lunch">
+        <h3>Lunch</h3>
+        <p>
+          page when looking at its layout. The point of using Lorem Ipsum is
+          that it has a more-or-less normal distribution of letters
+        </p>
+      </div>
+      <div class="about-col" id="dinner">
+        <h3>Dinner</h3>
+        <p>
+          page when looking at its layout. The point of using Lorem Ipsum is
+          that it has a more-or-less normal distribution of letters
+        </p>
+      </div>
+    </div>
+        
+</section>
+
+<section class="facilities" id="facilities">
+  <h1>Our Rooms and Facilities</h1>
+  <p>page when looking at its layout. The point of using Lorem Ipsum is</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img class="img" src="assets/room.jpg" alt="" />
+      <h3>All Ensuite Rooms</h3>
+      <p>
+        page when when looking at its layout. using Lorem looking at its
+        layout. using Lorem Ipsum is
+      </p>
+    </div>
+    <div class="facilities-col">
+      <img class="img" src="assets/tennis.jpg" alt="" />
+      <h3>Playing Grounds</h3>
+      <p>
+        page when when looking at its layout. using Lorem looking at its
+        layout. using Lorem Ipsum is
+      </p>
+    </div>
+    <div class="facilities-col">
+      <img class="img" src="assets/pool.jpg" alt="" />
+      <h3>Infinity Pools</h3>
+      <p>
+        page when when looking at its layout. using Loremlooking at its
+        layout. using Lorem Ipsum is
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="loginbox">
+    <img src="assets/logoBig.png" class="avatar">
+    <h1>Make a Reservation</h1>
+    <form action="login.php" method="POST"   id="loginform">
+        <p>Name</p>
+        <input type="text" name="email" id="email" placeholder="Enter Full Name" required>
+        <span class="form-label">Check In</span>
+        <input type="date" name="pass" id="password" placeholder="" required>
+        <hr/>
+        <span class="form-label">Check Out</span>
+        <input type="date" name="pass" id="password" placeholder="" required>
+        <div class = "formbox">
+        <hr/>
+        <span class="form-label" ></span>Rooms</span>
+        <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        </select>
+        <span class="select-arrow"></span>
+        <span class="form-label">Adults</span>
+        <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        </select>
+        <span class="select-arrow"></span>
+        <span class="form-label">Children</span>
+        <select class="form-control">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option> 
+        </select>
+        <span class="select-arrow"></span>
+        </div>
+        <hr/>
+        <span class="form-label">Ensure All details are correct</span>
+      
+
+        <input type="submit"  onClick="login.php ='home.html'" name="add_detail" class="btn" value="Check Availablity">
+    </form>
+    <div class="book_info">
+      <h1> page when when looking at its layout. using Loremlooking at its
+        layout. using Lorem Ipsum is page when when looking at its layout. using Loremlooking at its
+        layout. using Lorem Ipsum is </h1>
+        
+      
+
+    </div>
+
+  </div>
+</section>
+
+<section class="location" id="location">
+  <h1>Our Location</h1>
+  <div class="map-responsive">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.595424734421!2d36.80304953488769!3d-1.2959844999999954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10ea41b1ef41%3A0x9a28a94dc1b0f665!2sGA%20Insurance%20House!5e0!3m2!1sen!2ske!4v1626085420016!5m2!1sen!2ske"
+   width="1210" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+<section class="footer" id="footer">
+  <div class="row">
+    <div class="aboutcolumn">
+      <h4>About Us</h4>
+      <p>
+        “Pictures, abstract symbols, materials, and colors are among the
+        ingredients with which a designer <br />
+        or engineer works. To design is to discover relationships and to
+        make arrangements and rearrangements among these ingredients.”
+      </p>
+    </div>
+           <div class="aboutcolumn">
+      <div class="icons">
+        <h4>Our Social Media Handles</h4>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <hr />
+    <p>
+      
+      Copyright &copy; 2020 Best Food Hotel
+    </p>
+  </div>
+</section>
+</div>  
+</body>
+</html>
