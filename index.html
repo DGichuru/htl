@@ -83,16 +83,14 @@
                       </div> 
                     </div>  
                     </div>
+                </div>
           
 
   </section>
 
   <section class="about" id="about">
     <h1>Meals We Offer</h1>
-    <p>
-      page when looking at its layout. The point of using Lorem Ipsum is that
-      it has a more-or-less normal distribution of letters
-    </p>
+    
     <div class="row">
       <div class="about-col" id="breakfast">
         <h3>Breakfast</h3>
@@ -124,28 +122,86 @@
   <p>page when looking at its layout. The point of using Lorem Ipsum is</p>
   <div class="row">
     <div class="facilities-col">
-      <img class="img" src="assets/room.jpg" alt="" />
+      <div id="slides" class="carousel slide" data-ride="carousel">  
+
+        <ol class="carousel-indicators">   
+            <li data-target="#slides" data-slide-to="0" class="active"></li>  
+            <li data-target="#slides" data-slide-to="1" ></li>  
+              
+        </ol>  
+        <div class="carousel-inner">  
+            <div class="carousel-item active">  
+            <img src="assets/room.jpg" width="100%" height="100%">  
+                <div class="carousel-caption">  
+                <h1 class="display-2"></h1>  
+                <h3 ></h3>  
+                </div>  
+            </div>  
+            <div class="carousel-item" style="width: 100%">  
+            <img src="assets/room.jpg" width="100%" height="100%">  
+            <div class="carousel-caption">  
+              <h1 class="display-2"></h1>  
+              <h3 ></h3>  
+              </div> 
+            </div>  
+            </div>
+        </div>
       <h3>All Ensuite Rooms</h3>
-      <p>
-        page when when looking at its layout. using Lorem looking at its
-        layout. using Lorem Ipsum is
-      </p>
+      
     </div>
     <div class="facilities-col">
-      <img class="img" src="assets/tennis.jpg" alt="" />
-      <h3>Playing Grounds</h3>
-      <p>
-        page when when looking at its layout. using Lorem looking at its
-        layout. using Lorem Ipsum is
-      </p>
+      <div id="slides" class="carousel slide" data-ride="carousel">  
+
+        <ol class="carousel-indicators">   
+            <li data-target="#slides" data-slide-to="0" class="active"></li>  
+            <li data-target="#slides" data-slide-to="1" ></li>  
+              
+        </ol>  
+        <div class="carousel-inner">  
+            <div class="carousel-item active">  
+            <img src="assets/tennis.jpg" width="100%" height="100%">  
+                <div class="carousel-caption">  
+                <h1 class="display-2"></h1>  
+                <h3 ></h3>  
+                </div>  
+            </div>  
+            <div class="carousel-item" style="width: 100%">  
+            <img src="assets/tennis.jpg" width="100%" height="100%">  
+            <div class="carousel-caption">  
+              <h1 class="display-2"></h1>  
+              <h3 ></h3>  
+              </div> 
+            </div>  
+            </div>
+        </div>
+        <h3>Play Grounds</h3>
     </div>
     <div class="facilities-col">
-      <img class="img" src="assets/pool.jpg" alt="" />
-      <h3>Infinity Pools</h3>
-      <p>
-        page when when looking at its layout. using Loremlooking at its
-        layout. using Lorem Ipsum is
-      </p>
+      <div id="slides" class="carousel slide" data-ride="carousel">  
+
+        <ol class="carousel-indicators">   
+            <li data-target="#slides" data-slide-to="0" class="active"></li>  
+            <li data-target="#slides" data-slide-to="1" ></li>  
+              
+        </ol>  
+        <div class="carousel-inner">  
+            <div class="carousel-item active">  
+            <img src="assets/pool.jpg" width="100%" height="100%">  
+                <div class="carousel-caption">  
+                <h1 class="display-2"></h1>  
+                <h3 ></h3>  
+                </div>  
+            </div>  
+            <div class="carousel-item" style="width: 100%">  
+            <img src="assets/pool.jpg" width="100%" height="100%">  
+            <div class="carousel-caption">  
+              <h1 class="display-2"></h1>  
+              <h3 ></h3>  
+              </div> 
+            </div>  
+            </div>
+        </div>
+        <h3>Infinity pools</h3>
     </div>
   </div>
 </section>
@@ -159,11 +215,9 @@
         <input type="text" name="email" id="email" placeholder="Enter Full Name" required>
         <span class="form-label">Check In</span>
         <input type="date" name="pass" id="password" placeholder="" required>
-        <hr/>
         <span class="form-label">Check Out</span>
         <input type="date" name="pass" id="password" placeholder="" required>
         <div class = "formbox">
-        <hr/>
         <span class="form-label" ></span>Rooms</span>
         <select class="form-control">
         <option>1</option>
