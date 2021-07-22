@@ -13,8 +13,7 @@ body{
     width: 90px;
     height: 90px;
     border-radius: 30%;
-     
-
+    
 }
 
 
@@ -120,6 +119,10 @@ body{
     background-size: cover;
     
   }
+  #facilities h1 {
+    font-weight: bolder;
+  }
+    
   .facilities-col {
     flex-basis: 31%;
     border-radius: 10px;
@@ -262,11 +265,12 @@ padding: 70px 30px;
 
 }
 .location h1{
-  background-color:#e5542b;;
+ 
   border-radius: 10px;
   text-align: center;
-
-}
+  font-weight: bolder;
+  }
+    
 .map-responsive{
 
   overflow:hidden;
