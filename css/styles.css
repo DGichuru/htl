@@ -16,10 +16,7 @@ body{
      
 
 }
-#navbar {
-  background: #e5542b;
-  
-}
+
 
 #nav ul li a {
     color: #fff;
@@ -32,13 +29,19 @@ body{
   top: 680px;
   width: 96.66666666666666%;
   color: #FFF;
+  font-family: Sofia;
+  
+}
+
+.main-text h1{
+  font-size: 25px;
 }
 .about {
     width: 100%;
     margin: auto;
     padding-top: 80px;
     text-align: center;
-    background-image: url("../assets/fastFood1.jpg");
+    background-image: url("../assets/pexels.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -46,7 +49,9 @@ body{
     border-radius: 10px;
 
   }
-
+#about h1 {
+  font-weight: bolder;
+}
   
   h1 {
     font-size: 36px;
@@ -123,7 +128,7 @@ body{
   }
   .facilities-col img {
     width: 100%;
-    height: 70%;
+    height: 300px;
     border-radius: 10px;
     display: block;
     object-fit: cover;
@@ -191,7 +196,7 @@ body{
   margin-bottom: 20px;
   
 }
-.loginbox input[type="text"], input[type="password"], input[type="date"], select[class="form-control"]
+.loginbox input[type="text"], input[type="password"],select[class="form-control"]
 {
   border: none;
   border-bottom: 1px solid #fff;
@@ -200,6 +205,19 @@ body{
   height: 40px;
   color: #fff;
   font-size: 16px;
+}
+
+.loginbox input[type="date"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: white;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  border-radius: 10px;
+  
 }
 .loginbox input[type="submit"]
 {
@@ -238,7 +256,7 @@ padding: 70px 30px;
   height: 54.5vh;
   width: 80%;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 30px;
  
 
 
@@ -288,7 +306,7 @@ padding: 70px 30px;
   margin-left: 20px;
 }
 .copyright {
-  height: 2.5rem;
+  height: 2.7rem;
   margin-bottom: 0;
 }
 .copyright p {
