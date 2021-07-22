@@ -24,7 +24,15 @@ body{
 #nav ul li a {
     color: #fff;
 }
-
+.carousel-caption{
+  top: 30%;
+}
+.main-text {
+  position: absolute;
+  top: 680px;
+  width: 96.66666666666666%;
+  color: #FFF;
+}
 .about {
     width: 100%;
     margin: auto;
