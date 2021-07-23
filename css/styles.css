@@ -44,7 +44,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     border-radius: 10px;
 
   }
@@ -71,19 +71,28 @@ body{
     display: flex;
     justify-content: space-evenly;
   }
+  .row-about {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+  }
   .about-col {
-    flex-basis: 31%;
+    flex-basis: 25%;
     background: #F08C99;
     border-radius: 10px;
     margin-bottom: 5%;
     margin-top: 7px;
     transition: 0.5s;
+    height: 200px;
     text-decoration-color:#fff;
     background-size: cover;
 
   }
   
-  h3 {
+  .about-col h3 {
+
     text-align: center;
     margin: 10px 0;
   }
@@ -294,6 +303,7 @@ padding: 70px 30px;
   text-align: center;
   background: #e5542b;
   margin-bottom: 0;
+  padding-bottom: 6px;
   
  
   }
@@ -312,6 +322,7 @@ padding: 70px 30px;
 .copyright {
   height: 2.7rem;
   margin-bottom: 0;
+  
 }
 .copyright p {
   color: rgb(0, 0, 0);
@@ -336,4 +347,7 @@ padding: 70px 30px;
   padding: 25px;
   margin-top: 50px;
   margin-right: 2px;
+}
+.icons :hover{
+  color: #000;
 }
