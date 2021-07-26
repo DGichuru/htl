@@ -31,6 +31,15 @@
 </head>
 
 <body>
+<div class="overlay">
+  <div class="wrapper">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</div>
+
   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" id="navbar">  
     <div class="container-fluid">  
        <p class="navbar-brand" href="#"> <img src="assets/logoBig.png" class="logo"></img> Best Food Hotel </i></p>  
@@ -338,6 +347,10 @@
 </div> 
 
 <script>
+  $(window).load(function() {
+  $(".overlay").fadeOut(1500);
+});
+
 var header = document.getElementById("navbar");
 var btns = header.getElementsByClassName("nav-item");
 for (var i = 0; i < btns.length; i++) {
